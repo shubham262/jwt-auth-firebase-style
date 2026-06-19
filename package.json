@@ -1,0 +1,30 @@
+{
+	"name": "jwt-authentication",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon --import ./env.js index.js",
+		"start": "node --import ./env.js index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shubham262/jwt-auth-firebase-style.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/shubham262/jwt-auth-firebase-style/issues"
+	},
+	"homepage": "https://github.com/shubham262/jwt-auth-firebase-style#readme",
+	"description": "",
+	"dependencies": {
+		"bcryptjs": "^3.0.3",
+		"cors": "^2.8.6",
+		"dotenv": "^17.4.2",
+		"express": "^5.2.1",
+		"jsonwebtoken": "^9.0.3",
+		"mongoose": "^9.7.1"
+	},
+	"type": "module"
+}
